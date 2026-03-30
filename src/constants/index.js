@@ -25,10 +25,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Technologies Learned" },
-  { value: 40, suffix: "+", label: "Completed Projects" },
-  { value: 200, suffix: "+", label: "Hours Spent Learning to Code" },
+  { value: 3, suffix: "+", label: "Years of Experience" },
+  { value: 30, suffix: "+", label: "Technologies Learned" },
+  { value: 150, suffix: "+", label: "Completed Projects" },
+  { value: 10, suffix: "+", label: "Team Members Collaborated" },
 ];
 
 const logoIconsList = [
@@ -139,11 +139,11 @@ const expCards = [
     imgPath: "/images/django.png",
     logoPath: "/images/logodjango.png",
     title: "Backend Developer",
-    date: "March 2023 - Present",
+    date: "October 2022 - July 2024",
     learnings: [
-      "How to define data structures using Django’s ORM and efficiently query databases without writing raw SQL",
-      "How to separate logic and presentation by creating clean, modular views and dynamic HTML templates.",
-      "How to build, serialize, and secure APIs efficiently using DRF’s powerful tools.",
+      "Education Platform Development: Designed and implemented lesson interfaces, payment flows, and interactive learning features for an exam preparation platform (ENT).",
+      "Refactoring & Architecture: Refactored legacy code and introduced modern architectural patterns. Participated in application design, improving code structure and modularizing business logic.",
+      "Backend Development: Developed monolithic services and built APIs for client-side and third-party integrations. Improved performance by optimizing complex code paths and reducing server response time. Implemented queue-based systems to distribute load and handle background processing.",
     ],
   },
   {
@@ -152,11 +152,11 @@ const expCards = [
     imgPath: "/images/reactlogo.png",
     logoPath: "/images/react.png",
     title: "Frontend Developer",
-    date: "May 2024 - Present",
+    date: "September 2024 - October 2025",
     learnings: [
-      "How to write HTML-like syntax within JavaScript to create dynamic UI components.",
-      "How to manage side effects and stateful logic in functional components with React Hooks.",
-      "How to break interfaces into reusable, modular components that manage their own state and logic.",
+      "Full-Stack Development: Developed a government platform commissioned by a city administration for the digitalization and inventory management of urban green infrastructure across Kazakhstan. Also built internal applications for a landscaping company, including a mobile app with GPS tracking and map integration, a task management system, and an administrative platform.",
+      "DevOps & Infrastructure: Managed infrastructure and deployment processes, including setting up applications on VPS servers, configuring CI/CD pipelines, implementing SSL certificates, organizing backups, and ensuring stable production environments.",
+      "SEO & Performance Optimization: Improved website visibility and performance by applying modern SEO practices and optimization techniques. Worked on project scalability, page load speed, rendering optimization, and overall user experience.",
     ],
   },
   {
@@ -165,11 +165,11 @@ const expCards = [
     imgPath: "/images/nextjslg.png",
     logoPath: "/images/nextjs.png",
     title: "Fullstack Developer",
-    date: "July 2024 - Present",
+    date: "October 2025 - Present",
     learnings: [
-      "How to quickly set up page navigation using Next.js’s file-based routing system without extra configuration.",
-      "How to create backend functionality directly within my Next.js project using built-in API routes.",
-      "How to use middleware for authentication, redirects, and request handling closer to the user.",
+      "Team Leadership: Coordinated a team of 6 developers: planned tasks, organized sprints, and conducted regular code reviews. Supported team members’ professional growth and ensured smooth onboarding for new hires.",
+      "Architecture & Frontend Development: Designed and evolved frontend architecture using React, Next.js, Astro, and Vanilla JavaScript. Implemented new features while maintaining existing systems. Built reusable UI components and complex animations, ensuring a consistent and dynamic user experience.",
+      "Bitrix24 Modules Development: Developed custom modules for Bitrix24 tailored to specific business needs, automating key client processes and improving operational efficiency.",
     ],
   },
 ];

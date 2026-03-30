@@ -88,7 +88,7 @@ function ExperienceSection() {
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
                         <p className="my-5 text-white-50">🗓️ {card.date}</p>
-                        <p className="text-[#839cb5] italic">Learned</p>
+                        <p className="text-[#839cb5] italic">Achievements</p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.learnings.map((learning) => (
                             <li key={learning} className="text-lg">
